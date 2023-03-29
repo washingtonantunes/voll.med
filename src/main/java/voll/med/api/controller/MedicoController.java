@@ -8,7 +8,10 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponentsBuilder;
-import voll.med.api.medico.*;
+import voll.med.api.domain.medico.DadosListagemMedico;
+import voll.med.api.domain.medico.Medico;
+import voll.med.api.domain.medico.MedicoRepository;
+import voll.med.api.domain.medico.*;
 
 @RestController
 @RequestMapping("medicos")

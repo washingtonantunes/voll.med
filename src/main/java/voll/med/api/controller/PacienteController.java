@@ -7,10 +7,10 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
-import voll.med.api.paciente.DadosCadastroPaciente;
-import voll.med.api.paciente.DadosListagemPaciente;
-import voll.med.api.paciente.Paciente;
-import voll.med.api.paciente.PacienteRepository;
+import voll.med.api.domain.paciente.DadosCadastroPaciente;
+import voll.med.api.domain.paciente.DadosListagemPaciente;
+import voll.med.api.domain.paciente.Paciente;
+import voll.med.api.domain.paciente.PacienteRepository;
 
 @RestController
 @RequestMapping("pacientes")
